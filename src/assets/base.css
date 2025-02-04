@@ -13,8 +13,28 @@ body{
   cursor: none;
  
 }
+
 .custom-cursor-ii {
 
-  @apply bg-[#ee87cb];
+  height: 50px;
+  transition: all .1s ease-out;
+  width: 50px;
+  filter: invert(1);
+
+}
+
+
+
+.custom-cursor,
+.custom-cursor-ii {
+  border-radius: 100%;
+  mix-blend-mode: exclusion;
+  pointer-events: none;
+  position: absolute;
+  z-index: 10000000;
+}
+.custom-cursor-ii {
+
+  @apply bg-[#111];
 }
 

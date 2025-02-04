@@ -53,24 +53,4 @@ const store = useLocalStorage(
 
 
 
-<style>
-.custom-cursor-ii {
-
-  height: 35px;
-  transition: all .1s ease-out;
-  width: 35px;
-  filter: invert(1);
-
-}
-
-
-
-.custom-cursor,
-.custom-cursor-ii {
-  border-radius: 100%;
-  mix-blend-mode: exclusion;
-  pointer-events: none;
-  position: absolute;
-  z-index: 10000000;
-}
-</style>
+<style></style>
